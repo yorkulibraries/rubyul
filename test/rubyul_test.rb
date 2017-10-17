@@ -5,7 +5,12 @@ class RubyulTest < Minitest::Test
     refute_nil ::Rubyul::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_academic_year_a
+    assert_equal 2017, Rubyul.academic_year("2017-09-01")
   end
+
+  def test_academic_year_b
+    assert_equal 2016, Rubyul.academic_year("2017-08-31")
+  end
+
 end

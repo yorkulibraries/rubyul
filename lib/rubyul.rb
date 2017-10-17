@@ -1,5 +1,10 @@
 require "rubyul/version"
 
 module Rubyul
-  # Your code goes here...
+
+  def self.academic_year(date)
+    require 'date'
+    (Date.parse(date) << 8).year
+  end
+
 end
