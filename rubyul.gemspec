@@ -5,7 +5,7 @@ require "rubyul/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rubyul"
-  spec.version       = Rubyul::VERSION
+  spec.version       = "0.5.0"
   spec.authors       = ["William Denton"]
   spec.email         = ["wtd@pobox.com"]
 
