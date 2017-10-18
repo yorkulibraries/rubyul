@@ -430,6 +430,7 @@
     "journals.*scholarsportal.info"		: "Scholars Portal Journals",
     "odesi.*scholarsportal.info"		: "Scholars Portal <odesi>",
     ".*odesi.ca"				: "Scholars Portal <odesi>",
+    "resolver.scholarsportal.info"		: "Scholars Portal resolver",
     ".*scielo.br"				: "SciELO",
     ".*scielo.sa.cr"				: "SciELO",
     ".*scielo.cl"				: "SciELO",
@@ -511,5 +512,9 @@
     "www.jphysiol.org$"			        : "Wiley",
     "www.literatureencyclopedia.com$"		: "Wiley-Blackwell Encyc Literature",
     "wrds.*wharton.upenn.edu$"			: "Wharton Research Data Serv",
-    "worldscientific.com"			: "World Scientific"
+    "worldscientific.com"			: "World Scientific",
+    "www.library.yorku.ca"                      : "YUL",
+    "ezproxy.library.yorku.ca"                  : "YUL: EZProxy",
+    "researchguides.library.yorku.ca"           : "YUL: Research guides",
+    "dx.doi.org"                                : "DOI"
 }

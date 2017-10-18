@@ -29,4 +29,15 @@ class RubyulTest < Minitest::Test
     assert_equal "Films on Demand", Rubyul.hostname_to_platform("fod.infobase.com")
   end
 
+  def test_ignores_ads_server
+    assert_equal "ignore", Rubyul.hostname_to_platform("ads.example.com", ignore: TRUE)
+  end
+
+  def test_does_not_ignore_ads_server_if_not_told_to
+    assert_nil Rubyul.hostname_to_platform("ads.example.com")
+  end
+
+  def test_does_not_ignore_proquest
+    assert_equal "ProQuest", Rubyul.hostname_to_platform("www.proquest.com", ignore: TRUE)
+  end
 end
